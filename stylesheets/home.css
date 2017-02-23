@@ -1,0 +1,8 @@
+section.banner {
+  position: relative;
+}
+
+section.banner img {
+  position: relative;
+  width: 100%;
+}

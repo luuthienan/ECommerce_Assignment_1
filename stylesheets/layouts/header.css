@@ -1,114 +1,80 @@
-body > header#topbar{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-
-  width: 100%;
-  height: 52px;
-
-  background-color: #000000;
+header {
+  /*position: fixed;*/
+  z-index: 10;
 }
 
-body > header#topbar > div#brandName{
-  margin-left: 45px; /*32px*/
-  float: left;
-
-  width: 266px; /*188px*/
-  height: 52px;
-
-  background-color: rgba(234, 234, 234, 0.39);
+header .active {
+  background-color: rgba(165, 165, 165, 0.26) !important;
 }
 
-body > header#topbar > nav#duplicateControl{
-  float: left;
-
-  width: 543px; /*384px*/
-  height: 52px;
+header .active a {
+  background-color: transparent !important;
 }
 
-/*hover: background-color: rgba(165, 165, 165, 0.26);*/
-body > header#topbar > nav#duplicateControl > a{
-  float: left;
-
-  width: 90px; /*64px*/
+header > .navbar{
+  padding: 0 32px;
   height: 52px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none;
+}
 
+header .logo {
+  width: 188px;
   text-align: center;
-  text-decoration: none;
 }
 
-body > header#topbar > nav#duplicateControl > a:hover{
-  background-color: rgba(165, 165, 165, 0.26);
-}
-
-body > header#topbar > nav#duplicateControl > a > span{
-  margin-top: -5px;
-  display: block;
-
-  font-size: 15px; /*11px*/
-
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.icon {
-  margin: 6px 6px 6px 6px;
-}
-
-body > header#topbar > div#holder{
-  float: left;
-  width: 141px; /*100px*/
-  height: 52px;
-
-  align-items: center;
-}
-
-body > header#topbar > div#holder > div{
-  margin: 10px 10px 10px 10px; /*10px*/
-  float: left;
-
-  width: 90px; /*90px*/
-  height: 32px;
-
-  border-radius: 100px;
-  border: solid 2px #ffffff;
-}
-
-body > header#topbar > div#holder > div > span#bag{
-  position: relative;
-  top: -9px;
-  font-size: 15px;
-
-  color: rgba(255, 255, 255, 0.8);
-}
-
-body > header#topbar > div#holder > div > span#two{
-  position: relative;
-  top: -9px;
-
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-
-  font-size: 15px;
+header .menu {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
   text-align: center;
-  color: #FFFFFF;
-
-  border-radius: 100px;
-  background-color: #ffee2e;
+  font-size: 11px;
+  color: #fff !important;
 }
 
-body > header#topbar > form#search > input{
-  position: relative;
-  top: 6px;
+header .navbar-right .search-form {
+  padding: 8px 0;
+}
 
-  width: 256px;
-  height: 32px;
+header .navbar-right .search {
+  border: none;
+  font-size: 12px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 5px 10px
+}
 
-  border-radius: 100px;
+header .navbar-right .bag {
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
 
-  text-indent: 15px;
+header .navbar-right .link-bag {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
 
-  color: rgba(72, 72, 72, 0.62);
-  background-color: #FFFFFF;
+
+@media screen and (max-width: 786px) {
+  header > .navbar{
+    padding: 0;
+  }
+
+  header .logo {
+  text-align: left;
+}
+
+  header .menu {
+    text-align: left;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  header .menu > div {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+  }
 }
