@@ -1,0 +1,29 @@
+body > footer{
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+
+  width: 100%;
+  height: 100px;
+
+}
+
+body > footer > div{
+  position: relative;
+  left: 60px;
+  width: 90%;
+
+}
+
+body > footer > div > ul{
+  position: absolute;
+  bottom: -80px;
+  left: 1000px;
+}
+
+body > footer > div > ul > li{
+  list-style: none;
+  float: left;
+  margin: 22px 22px 22px 22px;
+
+}
