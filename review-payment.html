@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Review payment</title>
+  <meta charset="utf-8">
+  <title>Review Payment</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/review-payment.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <style type="text/css">
+  *{
+    font-family: 'SFNSText';
+  }
+  .center{
+    margin: 0 auto;
+    width: 100%;
+  }
+  div#final_bill{
+    border-top: 1px solid #979797;
+    font-size: 18px;
+    color: #fe6868;
+  }
+  .form-text{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #d8d8d8;
+    cursor: default;
+  }
+  button{
+    border-radius: 100px;
+    border: solid 1px #7cc5ff;
+    background-color: white;
+    color: #7cc5ff;
+    padding: 5px 55px 5px 55px;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container center" style="margin-top: 50px; margin-bottom: 50px">
+    <div class="col-sm-offset-3 col-sm-6">
+      <h3>Review Payment</h2>
+      <h3 style="margin-top: 30px; margin-bottom: 30px"><b>Bill</b></h3>
+      <div style="margin-top: 20px; margin-bottom: 20px">
+        <div class="row">
+          <span class="col-sm-3">Current Bill</span>
+          <span class="col-sm-9 text-right">29.180.000đ</span>
+        </div>
+        <div class="row" id="final_bill">
+          <span class="col-sm-3">Final Bill</span>
+          <span class="col-sm-9 text-right">29.180.000đ</span>
+        </div>
+      </div>
+
+      <h3><b>Delivery information</b></h3>
+      <form class="form-horizontal">
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="urname" >Your name:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="urname" disabled value="Nguyen Van A">
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="pnumber">Phone number:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="pnumber" disabled value="0123456789" style="cursor: default;">
+          </div>
+        </div>
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="city">Provin/City:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="city" disabled value="Ho Chi Minh City" style="cursor: default;">
+          </div>
+        </div>
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="dicstrict">Dicstrict:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="dicstrict" disabled value="9" style="cursor: default;">
+          </div>
+        </div>
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="ward">Ward:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="ward" disabled value="10" style="cursor: default;">
+          </div>
+        </div>
+        <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
+          <label class="col-sm-3 text-left" for="addr">Address:</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-text" id="addr" disabled value="123 Nguyễn Huệ" style="cursor: default;">
+          </div>
+        </div>
+
+        <center><button>Order</button></center>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
