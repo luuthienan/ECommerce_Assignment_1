@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>title</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand logo" href="#">Logo</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav">
+
+            <li class="active">
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/phone.png">
+                </div>
+                <div class="text">Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/tablet.png">
+                </div>
+                <div class="text">Tablet</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/assessory.png">
+                </div>
+                <div class="text">Assessory</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/2nd-phone.png">
+                </div>
+                <div class="text">2nd Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/sale-off.png">
+                </div>
+                <div class="text">Sale Off</div>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="link-bag" href="#">
+                <div class="bag">
+                  <img src="images/icons/bag.png">
+                  <span>Bag</span>
+                  <span>2</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <form class="search-form">
+                <input class="search form-control" type="text" name="search" placeholder="Search anything you want...">
+              </form>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <img src="images/background.png">
+  </section>
+
+  <section class = "main-contain">
+    <ul class="nav nav-pills nav-justified category">
+      <li><a href="#Apple">Apple</a></li>
+
+      <li><a href="#Samsung">Samsung</a></li>
+
+      <li><a href="#Sony">Sony</a></li>
+
+      <li class="dropdown">
+        <a href="#Brand" class="dropdown-toggle" data-toggle="dropdown">
+          Brand
+          <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href="#brand1">Brand 1</a></li>
+          <li><a href="#brand1">Brand 2</a></li>
+          <li><a href="#brand1">Brand 3</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#10-100">$10-$100</a></li>
+
+      <li><a href="#101-200">$101-$200</a></li>
+
+      <li><a href="#201-300">$201-$300</a></li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Other Price
+          <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href="#">Price 1</a></li>
+          <li><a href="#">Price 2</a></li>
+          <li><a href="#">Price 3</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Other Price
+          <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href="#">Order 1</a></li>
+          <li><a href="#">Order 2</a></li>
+          <li><a href="#">Order 3</a></li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <div class="product">
+      <ul>
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+
+        <!-- product 2 -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+        <!--  -->
+        <li class="product-detail col-md-4">
+          <div class="phone-image">
+            <img src="img/apple-i-phone-5-c-blue.png" srcset="images/phones/apple-i-phone-5-c-blue@2x.png, images/phones/apple-i-phone-5-c-blue@3x.png" class="Apple-iPhone-5c-Blue">
+          </div>
+          <div class="phone-detail">
+            <p class="phone-name">Iphone 5c Blue</p>
+            <p class="phone-price">$249</p>
+            <table>
+              <tr>
+                <td class="feature">Screen</td>
+                <td class="feature-info">LED-backlit LCD, 4”, DVGA</td>
+              </tr>
+              <tr>
+                <td class="feature">OS</td>
+                <td class="feature-info">iOS</td>
+              </tr>
+              <tr>
+                <td class="feature">Camera</td>
+                <td class="feature-info">8mpx back, 1.2mpx front</td>
+              </tr>
+              <tr>
+                <td class="feature">CPU</td>
+                <td class="feature-info">Apple A6 2 core 32-bit</td>
+              </tr>
+              <tr>
+                <td class="feature">Storage</td>
+                <td class="feature-info">32 GB</td>
+              </tr>
+              <tr>
+                <td class="feature">Size</td>
+                <td class="feature-info">124.4 mm - 59.2 mm - 9 mm</td>
+              </tr>
+            </table>
+            <button type="button" class="btn-more">More Detail</button>
+          </div>
+        </li>
+        <!--  -->
+      </ul>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="contact">
+      <p class="phone-name">Iphone 5c Blue</p>
+
+      <table>
+        <tr>
+          <td class="contact-feature">Contact</td>
+          <td class="contact-info">0944 182 732</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 1</td>
+          <td class="contact-info">345 Nettie Island</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 2</td>
+          <td class="contact-info">7782 Douglas Extensions</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-icon">
+      <ul>
+        <li>
+        <a href="">
+          <img src="images/footer/h11.png" srcset="images/footer/h12.png, images/footerh/13.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h121.png" srcset="images/footer/h22.png, images/footerh/23.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h31.png" srcset="images/footer/h32.png, images/footerh/33.png" class="Bitmap">
+        </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

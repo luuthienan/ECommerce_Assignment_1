@@ -1,79 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="header.css">
-	<link rel="stylesheet" type="text/css" href="article.css">
-	<link rel="stylesheet" type="text/css" href="footer.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>title</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/payment-complete.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header id="topbar">
-		<div id="brandName"></div>
-		<nav id="duplicateControl">
-			<a href="">
-				<img src="../res/image/icon_6.png" width="20px" height="20px" class="icon">
-				<span>Phone</span>
-			</a>
-			<a href="">
-				<img src="../res/image/icon_5.png" width="24px" height="18px" class="icon">
-				<span>Tablet</span>
-			</a>
-			<a href="">
-				<img src="../res/image/icon_4.png" width="14px" height="20px" class="icon">
-				<span>Assessory</span>
-			</a>
-			<a href="">
-				<img src="../res/image/icon_3.png" width="17px" height="20px" class="icon">
-				<span>2nd Phone</span>
-			</a>
-			<a href="">
-				<img src="../res/image/icon_2.png" width="20px" height="20px" class="icon">
-				<span>Sale Off</span>
-			</a>
-		</nav>
-		<div id="holder">
-			<div>
-				<img src="../res/image/icon.png" width="20px" height="18px" class="icon">
-				<span id="bag">Bag</span>
-				<span id="two">2</span>
-			</div>
-		</div>
-		<form id="search">
-			<input type="search" value="Search anything you want..." onfocus="this.value='';">
-		</form>
-	</header>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
 
-	<article>
-		<div>
-			<img src="../res/image/group.png" width="105px" height="92px" class="icon">
-			<p style="font-size: 20px; color: #636363;">Your order have been sent</p>
-			<p style="font-size: 15px; color: #636363;">Please check your email for payment information</p>
-			<button>Back to home page</button>
-		</div>
-	</article>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-	<footer>
-		<div>
-			<p style="color: #636363"><b>Brian Reyes co. ltd</b></p>
-			<table style="width: 20%;color: #636363; float: left;">
-				<tr>
-					<td>Contact:</td>
-					<td><b>0944 192 732</b></td>
-				</tr>
-				<tr>
-					<td>Address 1:</td>
-					<td><b>345 Nettie Island</b></td>
-				</tr>
-				<tr>
-					<td>Address 2:</td>
-					<td><b>7782 Douglas Extensions</b></td>
-				</tr>
-			</table>
-			<ul>
-				<li><img src="../res/image/bitmap_4.png"></li>
-				<li><img src="../res/image/bitmap_6.png"></li>
-				<li><img src="../res/image/bitmap_5.png"></li>
-			</ul>
-		</div>
-	</footer>
+          <a class="navbar-brand logo" href="#">Logo</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav">
+
+            <li class="active">
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/phone.png">
+                </div>
+                <div class="text">Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/tablet.png">
+                </div>
+                <div class="text">Tablet</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/assessory.png">
+                </div>
+                <div class="text">Assessory</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/2nd-phone.png">
+                </div>
+                <div class="text">2nd Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/sale-off.png">
+                </div>
+                <div class="text">Sale Off</div>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="link-bag" href="#">
+                <div class="bag">
+                  <img src="images/icons/bag.png">
+                  <span>Bag</span>
+                  <span>2</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <form class="search-form">
+                <input class="search form-control" type="text" name="search" placeholder="Search anything you want...">
+              </form>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <article>
+    <div>
+      <img src="images/group.png" width="105px" height="92px" class="icon">
+      <p style="font-size: 20px; color: #636363;">Your order have been sent</p>
+      <p style="font-size: 15px; color: #636363;">Please check your email for payment information</p>
+      <button>Back to home page</button>
+    </div>
+  </article>
+
+  <footer>
+    <div class="contact">
+      <p class="phone-name">Iphone 5c Blue</p>
+
+      <table>
+        <tr>
+          <td class="contact-feature">Contact</td>
+          <td class="contact-info">0944 182 732</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 1</td>
+          <td class="contact-info">345 Nettie Island</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 2</td>
+          <td class="contact-info">7782 Douglas Extensions</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-icon">
+      <ul>
+        <li>
+        <a href="">
+          <img src="images/footer/h11.png" srcset="images/footer/h12.png, images/footerh/13.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h121.png" srcset="images/footer/h22.png, images/footerh/23.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h31.png" srcset="images/footer/h32.png, images/footerh/33.png" class="Bitmap">
+        </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

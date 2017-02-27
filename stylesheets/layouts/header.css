@@ -1,0 +1,82 @@
+header {
+  /*position: fixed;*/
+  z-index: 10;
+}
+
+header .active {
+  background-color: rgba(165, 165, 165, 0.26) !important;
+}
+
+header .active a {
+  background-color: transparent !important;
+}
+
+header > .navbar{
+  padding: 0 32px;
+  height: 52px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: none;
+}
+
+header .logo {
+  width: 188px;
+  text-align: center;
+}
+
+header .menu {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  text-align: center;
+  font-size: 11px;
+  color: #fff !important;
+}
+
+header .navbar-right .search-form {
+  padding: 8px 0;
+}
+
+header .navbar-right .search {
+  border: none;
+  font-size: 12px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 5px 10px
+}
+
+header .navbar-right .bag {
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+header .navbar-right .link-bag {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 786px) {
+  header > .navbar{
+    padding: 0;
+  }
+
+  header .logo {
+  text-align: left;
+}
+
+  header .menu {
+    text-align: left;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  header .menu > div {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}
