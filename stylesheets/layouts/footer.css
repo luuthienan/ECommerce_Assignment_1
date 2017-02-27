@@ -1,29 +1,27 @@
 footer {
-	width: 100%;
-  	height: 106px;
-  	background-color: #f4f4f4;
-  	position: fixed;
-  	bottom: 0;
-
+  width: 100%;
+  height: 106px;
+  background-color: #f4f4f4;
+  position: absolute;
+  bottom: 0;
 }
 
 footer div {
-	float: left;
-	width: 300px;
-	height: 106px;
-	display: block;
-	margin-left: 5%;
-	margin-top: 15px;
+  float: left;
+  width: 300px;
+  display: block;
+  margin-left: 5%;
+  margin-top: 15px;
 }
 
 .contact-info{
-	width: 125px;
-  	height: 12px;
-  	font-family: .SFNSText;
- 	font-size: 10px;
-  	font-weight: bold;
-  	letter-spacing: -0.1px;
-  	color: #636363;
+  width: 125px;
+  height: 12px;
+  font-family: .SFNSText;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  color: #636363;
 }
 .contact-feature {
   width: 60px;
@@ -35,19 +33,19 @@ footer div {
 }
 
 .Bitmap {
-	display: block;
-  	width: 22px;
-  	height: 22px;
-  	object-fit: contain;
+  display: block;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 .contact-icon {
-	float: right;
-	width: 300px;
-	height: 22px;
-	margin-top:45px;
+  float: right;
+  width: 300px;
+  height: 22px;
+  margin-top:45px;
 }
 .contact-icon li {
-	width: 30%;
-	height: 100%;
-	display: inline-block;
+  width: 30%;
+  height: 100%;
+  display: inline-block;
 }
