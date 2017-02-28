@@ -11,6 +11,10 @@ header .active a {
   background-color: transparent !important;
 }
 
+header > .header-black {
+  background-color: #000 !important;
+}
+
 header > .navbar{
   padding: 0 32px;
   height: 52px;

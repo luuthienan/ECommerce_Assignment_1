@@ -1,0 +1,41 @@
+body#product_detail {
+  padding-top: 70px;
+}
+
+#basic_information .text-info .product-color label {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#basic_information .text-info .product-color input[type="radio"] {
+  display: none;
+}
+
+#basic_information .text-info .product-color input[type="radio"]:checked ~ label {
+  border: 2px solid #0085ff;
+}
+
+#basic_information .text-info .product-configuration table {
+  width: 75%;
+}
+
+#basic_information .text-info .product-configuration tr {
+  border-bottom: 1px solid #dedede;
+}
+
+.background-grey {
+  background-color: #d8d8d8;
+}
+
+.background-black {
+  background-color: #000000;
+}
+
+#product_more_description img {
+  width: 100%;
+}
+
+.comment-form table {
+  width: 100%;
+}
