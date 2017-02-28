@@ -1,0 +1,10 @@
+body#item_bag {
+  padding-top: 70px;
+}
+
+.quantity-input input[type="text"] {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: inline;
+}
