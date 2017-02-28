@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>title</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/item_bag.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="item_bag">
+
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top header-black">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand logo" href="#">Logo</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav">
+
+            <li class="active">
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/phone.png">
+                </div>
+                <div class="text">Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/tablet.png">
+                </div>
+                <div class="text">Tablet</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/assessory.png">
+                </div>
+                <div class="text">Assessory</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/2nd-phone.png">
+                </div>
+                <div class="text">2nd Phone</div>
+              </a>
+            </li>
+
+            <li>
+              <a class="menu" href="#">
+                <div class="icon">
+                  <img src="images/icons/sale-off.png">
+                </div>
+                <div class="text">Sale Off</div>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="link-bag" href="#">
+                <div class="bag">
+                  <img src="images/icons/bag.png">
+                  <span>Bag</span>
+                  <span>2</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <form class="search-form">
+                <input class="search form-control" type="text" name="search" placeholder="Search anything you want...">
+              </form>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <section class="items">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2>Items Bag</h2>
+
+          <div class="item-element">
+            <div class="row">
+              <div class="col-xs-2">
+                <img src="images/phones/apple-i-phone-5-c-blue.png">
+              </div>
+              <div class="col-xs-8">
+                <h3>Apple iPhone 5c</h3>
+                <p>3.990.990</p>
+                <p>Color: Gold</p>
+              </div>
+              <div class="col-xs-2 text-center quantity-input">
+                <div>
+                  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+                </div>
+
+                <div>
+                  <input type="text" name="quantity" class="form-control text-right">
+                </div>
+
+                <div>
+                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-element">
+            <div class="row">
+              <div class="col-xs-2">
+                <img src="images/phones/apple-i-phone-5-c-blue.png">
+              </div>
+              <div class="col-xs-8">
+                <h3>Apple iPhone 5c</h3>
+                <p>3.990.990</p>
+                <p>Color: Gold</p>
+              </div>
+              <div class="col-xs-2 text-center quantity-input">
+                <div>
+                  <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+                </div>
+
+                <div>
+                  <input type="text" name="quantity" class="form-control text-right">
+                </div>
+
+                <div>
+                  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h2>Bill</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact">
+      <p class="phone-name">Iphone 5c Blue</p>
+
+      <table>
+        <tr>
+          <td class="contact-feature">Contact</td>
+          <td class="contact-info">0944 182 732</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 1</td>
+          <td class="contact-info">345 Nettie Island</td>
+        </tr>
+        <tr>
+          <td class="contact-feature">Address 2</td>
+          <td class="contact-info">7782 Douglas Extensions</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-icon">
+      <ul>
+        <li>
+        <a href="">
+          <img src="images/footer/h11.png" srcset="images/footer/h12.png, images/footerh/13.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h121.png" srcset="images/footer/h22.png, images/footerh/23.png" class="Bitmap">
+        </a>
+        </li>
+        <li>
+        <a href="">
+          <img src="images/footer/h31.png" srcset="images/footer/h32.png, images/footerh/33.png" class="Bitmap">
+        </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
