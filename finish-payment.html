@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finish payment</title>
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css"> -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/finish-payment.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+<div class="container finish_payment">
+  <div class="col-sm-8 col-sm-offset-2">
+    <div class="topic"><h3>Finish payment</h3></div>
+    <form class="form-horizontal">
+      <!-- Your name -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="urname">Your name:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-text" id="urname" placeholder="Enter your name">
+        </div>
+      </div>
+      <!-- Phone number -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="pnumber">Phone number:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-text" id="pnumber" placeholder="Enter your phone number">
+        </div>
+      </div>
+      <!-- Provin / City -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="city">Provin/City</label>
+        <div class="col-sm-9">
+          <select class="form-select" id="city">
+            <option selected disabled>Choose Provin/City</option>
+            <option value="tphcm">TP HCM</option>
+          </select>
+        </div>
+      </div>
+      <!-- District -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="district">District</label>
+        <div class="col-sm-9">
+          <select class="form-select" id="district">
+            <option selected disabled>Choose District</option>
+            <option value="tan binh">Tân Bình</option>
+          </select>
+        </div>
+      </div>
+      <!-- Ward -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="ward">Ward</label>
+        <div class="col-sm-9">
+          <select class="form-select" id="ward">
+            <option selected disabled>Choose Ward</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <!-- Address -->
+      <div class="form-group">
+        <label class="col-sm-3 text-left form-label" for="address">Address</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-text" id="address" placeholder="Enter your Address, ex.52 Ly Thuong Kiet">
+        </div>
+      </div>
+      <center><button>Continue</button></center>
+    </form>
+  </div>
+</div>
+</body>
+</html>
