@@ -2,9 +2,100 @@ body#item_bag {
   padding-top: 70px;
 }
 
+.topic{
+  width: 98px;
+  height: 23px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #636363;
+  margin-bottom: 20px;
+}
+/*left left*/
+.circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #e5d44d;
+  float: left;
+  margin-right: 4px;
+  line-height: normal;
+}
+
+.quality{
+  font-size: 10px;
+  color: #636363;
+  line-height: normal;
+}
+
+.device{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: #636363;
+}
+
+.money{
+  font-size: 14px;
+  font-weight: 500;
+  color: #fe6868;
+}
+
+.color{
+  font-size: 10px;
+  font-weight: 500;
+  color: #636363;
+}
+/*left right*/
+.quantity{
+  margin-top: 45px;
+  font-size: 10px;
+}
+.quantity-input{
+  margin-top: 15px;
+}
 .quantity-input input[type="text"] {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 10px;
   display: inline;
+  text-align: center;
+}
+
+/*right*/
+.finalBill{
+  border-top: solid 1px #979797;
+  color: #fe6868;
+  font-size: 18px;
+}
+
+.promoteCode-form{
+  margin-top: 40px;
+}
+
+.promoteCode input[type="text"]{
+  border-radius: 8px;
+  border: solid 1px #dcdcdc;
+  height: 32px;
+}
+
+.promoteCode button{
+  /*width: 100%;*/
+  width: 74px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #7cc5ff;
+  border: solid 1px #7cc5ff;
+  color: white;
+}
+
+.pay{
+  margin-top: 40px;
+}
+
+.btn-end{
+  padding: 5px 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #7cc5ff;
+  color: #7cc5ff;
+  border-radius: 100px;
 }
