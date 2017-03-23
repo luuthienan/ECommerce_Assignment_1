@@ -19,12 +19,13 @@ header > .navbar{
   padding: 0 32px;
   height: 52px;
   border-radius: 0px;
-  background-color: transparent;
+  background-color: black;
   border: none;
 }
 
 header .logo {
   width: 188px;
+  background-color: rgba(234, 234, 234, 0.39);
   text-align: center;
 }
 
@@ -45,13 +46,13 @@ header .navbar-right .search {
   font-size: 12px;
   width: 300px;
   border-radius: 15px;
-  padding: 5px 10px
+  padding: 5px 10px;
 }
 
 header .navbar-right .bag {
   border: 2px solid #fff;
-  padding: 5px 20px;
-  border-radius: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 
 header .navbar-right .link-bag {
@@ -60,17 +61,25 @@ header .navbar-right .link-bag {
   font-size: 12px;
 }
 
+.bag-text{
+  margin: 0px 2px 0px 2px;
+}
 
+.bag-two{
+  color: white;
+  padding: 0px 5px 0px 5px;
+  border-radius: 10px;
+  background-color: #ffee2e;
+}
 
-
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
   header > .navbar{
     padding: 0;
   }
 
   header .logo {
   text-align: left;
-}
+  }
 
   header .menu {
     text-align: left;
