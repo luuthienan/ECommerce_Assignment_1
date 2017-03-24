@@ -213,6 +213,33 @@ body#product_detail {
   border: solid 1px #bdbdbd;
 }
 
+.btn-submit {
+  width: 153px;
+  height: 32px;
+  border-radius: 100px;
+  border: solid 1px #5fc1ff;
+  font-family: .SFNSText;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #5fc1ff;
+  background-color : #ffffff;
+  margin-top : 8px;
+  align-items: center;
+}
+
+.btn-submit:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit a {
+  text-decoration: none;
+  color: #5fc1ff; 
+}
+
+.btn-submit a:hover {
+  text-decoration: none;
+  color: #5fc1ff; 
+}
 
 
 
