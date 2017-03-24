@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Review payment</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>title</title>
+  <title>Items Bag</title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -18,13 +17,14 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/review-payment.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/button.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/component.css">
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 <body>
+
   <header>
     <nav class="navbar navbar-default navbar-fixed-top header-black">
       <div class="container-fluid">
@@ -37,12 +37,12 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand logo" href="#">Logo</a>
+          <a class="navbar-brand logo" href="home.html">Logo</a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav menu-list">
 
             <li class="active">
               <a class="menu" href="#">
@@ -94,12 +94,12 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a class="link-bag" href="item_bag.html">
-                  <div class="bag">
-                    <img src="images/icons/bag.png">
-                    <span class="bag-text">Bag </span>
-                    <span class="bag-two">2</span>
-                  </div>
-                </a>
+                <div class="bag">
+                  <img src="images/icons/bag.png">
+                  <span class="bag-text">Bag </span>
+                  <span class="bag-two">2</span>
+                </div>
+              </a>
             </li>
             <li>
               <form class="search-form">
@@ -114,14 +114,15 @@
     </nav>
   </header>
 
+
   <div class="container center" style="margin-top: 50px; margin-bottom: 50px">
     <div class="col-sm-offset-3 col-sm-6">
-      <h3>Review Payment</h2>
-      <h3 style="margin-top: 30px; margin-bottom: 30px"><b>Bill</b></h3>
-      <div style="margin-top: 20px; margin-bottom: 20px">
+      <h3> <p>Review Payment</p></h3>
+      <h3 style="margin-top: 30px; margin-bottom: 30px"><p class="bold">Bill</p></h3>
+      <div style="margin-top: 20px; margin-bottom: 43px">
         <div class="row">
-          <span class="col-sm-3">Current Bill</span>
-          <span class="col-sm-9 text-right">29.180.000đ</span>
+          <span class="col-sm-3 cur">Current Bill</span>
+          <span class="col-sm-9 text-right cur">29.180.000đ</span>
         </div>
         <div class="row" id="final_bill">
           <span class="col-sm-3">Final Bill</span>
@@ -129,7 +130,7 @@
         </div>
       </div>
 
-      <h3><b>Delivery information</b></h3>
+      <h3><p class="bold">Delivery information</p></h3>
       <form class="form-horizontal">
         <div class="form-group" style="margin-top: 20px; margin-bottom: 20px">
           <label class="col-sm-3 text-left" for="urname" >Your name:</label>
@@ -169,14 +170,14 @@
           </div>
         </div>
 
-        <center><button class="btn-submit-payment">Order</button></center>
+        <center><button><a href="finish-payment.html">Order</a></button></center>
       </form>
     </div>
   </div>
 
   <footer>
     <div class="contact">
-      <p class="phone-name">Iphone 5c Blue</p>
+      <p class="phone-name">Brian Reyes co. ltd</p>
 
       <table>
         <tr>

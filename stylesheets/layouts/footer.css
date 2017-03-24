@@ -49,3 +49,9 @@ footer div {
   height: 100%;
   display: inline-block;
 }
+
+.contact p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #636363;
+}

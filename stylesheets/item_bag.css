@@ -99,3 +99,17 @@ body#item_bag {
   color: #7cc5ff;
   border-radius: 100px;
 }
+
+.btn-end:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-end a {
+  text-decoration: none;
+  color: #7cc5ff;
+}
+
+.btn-end a:hover {
+  text-decoration: none;
+  color: #7cc5ff;
+}

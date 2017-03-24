@@ -2,6 +2,13 @@
   margin-top: 70px;
   margin-bottom: 50px;
 }
+
+.text-left{
+  color: #636363;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .form-text{
   width: 100%;
   padding: 5px 10px 5px 10px;
@@ -20,6 +27,7 @@
 .form-label{
   font-weight: lighter;
 }
+
 button{
   border-radius: 100px;
   border: solid 1px #7cc5ff;
@@ -28,6 +36,32 @@ button{
   padding: 5px 55px 5px 55px;
 }
 
+button:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+button a{
+  text-decoration: none;
+  color: #7cc5ff; 
+  font-size: 14px;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #7cc5ff; 
+}
+
 .input-radius {
   border-radius: 8px !important;
 }
+
+h3 p{
+  font-size: 20px;
+  color: #636363;
+  letter-spacing: -0.2px
+}
+
+.back-grad {
+  background-image: linear-gradient(to bottom, #ffffff, #f6f6f6 62%, #f7f7f7);
+}
+

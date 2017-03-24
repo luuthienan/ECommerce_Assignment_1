@@ -19,7 +19,6 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/product_detail.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/button.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/component.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -40,12 +39,12 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand logo" href="#">Logo</a>
+          <a class="navbar-brand logo" href="home.html">Logo</a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav menu-list">
 
             <li class="active">
               <a class="menu" href="#">
@@ -456,40 +455,56 @@ Always write down all details of every phone call. Write down any names and titl
 
             <div class="comment-form">
               <form>
+                <table class="">
+                  <tr >
+                    <td style="width: 120px"><label for="name" class="form-title-content">Your Name:</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                  </tr>
 
-                <div class="form-group row">
-                  <label for="name" class="control-label col-lg-2">Your Name</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="name" id="name" class="form-control">
-                  </div>
+                  <tr >
+                    <td style="width: 120px"><label for="name" class="form-title-content">Rating:</label></td>
+                    <td>
+                      <div class="rate-holder">
+                        <span>
+                          <label class="rate-bullet rate-bullet-checked"></label>
+                        </span>
+                        <span>
+                          <label class="rate-bullet rate-bullet-checked"></label>
+                        </span>
+                        <span>
+                          <label class="rate-bullet rate-bullet-checked"></label>
+                        </span>
+                        <span>
+                          <label class="rate-bullet rate-bullet-checked"></label>
+                        </span>
+                        <span>
+                          <label class="rate-bullet rate-bullet-uncheck"></label>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td valign="top" id = "cmt-label"><label for="comment" class="form-title-content">Comment:</label></td>
+                    <td><textarea id="comment"></textarea></td>
+                  </tr>
+                </table>
+                <div class="text-center">
+                  <button class="btn-more" >Submit Comment</button>
                 </div>
-
-                <div class="form-group row">
-                  <label for="name" class="control-label col-lg-2">Comment</label>
-                  <div class="col-lg-10">
-                    <textarea id="comment" class="form-control" style="height: 200px"></textarea>
-                  </div>
-                </div>
-
-                <div class="text-center form-group">
-                  <button class="btn-submit-payment">Submit Comment</button>
-                </div>
-
               </form>
             </div>
 
         </div>
         <div class="col-lg-2"></div>
-      </div>
-
-
-
+      </div>    
+      
     </div>
   </section>
 
   <footer>
     <div class="contact">
-      <p class="phone-name">Iphone 5c Blue</p>
+      <p class="phone-name">Brian Reyes co. ltd</p>
 
       <table>
         <tr>

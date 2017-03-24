@@ -18,7 +18,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/finish_payment.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/component.css">
+  
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -37,12 +37,12 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand logo" href="#">Logo</a>
+        <a class="navbar-brand logo" href="home.html">Logo</a>
       </div>
 
       <div id="navbar" class="navbar-collapse collapse">
 
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav menu-list">
 
           <li class="active">
             <a class="menu" href="#">
@@ -117,12 +117,12 @@
 
 <div class="container finish_payment">
   <div class="col-sm-8 col-sm-offset-2">
-    <div class="topic"><h3>Finish payment</h3></div>
+    <div class="topic"><h3><p>Finish payment</p></h3></div>
 
     <form class="form-horizontal">
       <!-- Your name -->
       <div class="form-group">
-        <label class="col-sm-3 text-left form-label" for="urname">Your name</label>
+        <label class="col-sm-3 text-left form-label" for="urname">Your name:</label>
         <div class="col-sm-9">
           <input type="text" class="form-control form-text input-radius" id="urname" placeholder="Enter your name">
         </div>
@@ -130,7 +130,7 @@
 
       <!-- Phone number -->
       <div class="form-group">
-        <label class="col-sm-3 text-left form-label" for="pnumber">Phone number</label>
+        <label class="col-sm-3 text-left form-label" for="pnumber">Phone number:</label>
         <div class="col-sm-9">
           <input type="text" class="form-control form-text input-radius" id="pnumber" placeholder="Enter your phone number">
         </div>
@@ -140,7 +140,7 @@
       <div class="form-group">
         <label class="col-sm-3 text-left form-label" for="city">Provin/City</label>
         <div class="col-sm-9">
-          <select class="form-control form-select input-radius" id="city">
+          <select class="form-control form-select input-radius back-grad" id="city">
             <option selected disabled>Choose Provin/City</option>
             <option value="tphcm">TP HCM</option>
           </select>
@@ -151,7 +151,7 @@
       <div class="form-group">
         <label class="col-sm-3 text-left form-label" for="district">District</label>
         <div class="col-sm-9">
-          <select class="form-control form-select input-radius" id="district">
+          <select class="form-control form-select input-radius back-grad" id="district">
             <option selected disabled>Choose District</option>
             <option value="tan binh">Tân Bình</option>
           </select>
@@ -161,7 +161,7 @@
       <div class="form-group">
         <label class="col-sm-3 text-left form-label" for="ward">Ward</label>
         <div class="col-sm-9">
-          <select class="form-control form-select input-radius" id="ward">
+          <select class="form-control form-select input-radius back-grad" id="ward">
             <option selected disabled>Choose Ward</option>
             <option value="9">9</option>
           </select>
@@ -174,14 +174,14 @@
           <input type="text" class="form-control form-text input-radius" id="address" placeholder="Enter your Address, ex.52 Ly Thuong Kiet">
         </div>
       </div>
-      <center><button class="btn-submit-payment">Continue</button></center>
+      <center><button class=""><a href="payment-complete.html">Continue</a></button></center>
     </form>
   </div>
 </div>
 
 <footer>
   <div class="contact">
-    <p class="phone-name">Iphone 5c Blue</p>
+    <p class="phone-name">Brian Reyes co. ltd</p>
 
     <table>
       <tr>
