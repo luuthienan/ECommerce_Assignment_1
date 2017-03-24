@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/product_detail.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/button.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -97,8 +98,8 @@
               <a class="link-bag" href="#">
                 <div class="bag">
                   <img src="images/icons/bag.png">
-                  <span>Bag</span>
-                  <span>2</span>
+                  <span class="bag-text">Bag </span>
+                  <span class="bag-two">2</span>
                 </div>
               </a>
             </li>
@@ -118,9 +119,9 @@
   <section id="basic_information">
     <div class="container">
 
-      <div class="row">
+      <div class="row product-detail-holder">
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 product-image-holder">
           <div class="product-image"><img src="images/product-show.png"></div>
         </div>
 
@@ -133,7 +134,7 @@
 
             <div class="product-color">
               <span class="group">
-                <input type=radio name="color" id="color-grey">
+                <input type=radio name="color" id="color-grey" checked>
                 <label for="color-grey" class="background-grey"></label>
               </span>
 
@@ -141,11 +142,21 @@
                 <input type=radio name="color" id="color-black">
                 <label for="color-black" class="background-black"></label>
               </span>
+
+              <span class="group">
+                <input type=radio name="color" id="color-gold">
+                <label for="color-gold" class="background-gold"></label>
+              </span>
+
+              <span class="group">
+                <input type=radio name="color" id="color-rose">
+                <label for="color-rose" class="background-rose"></label>
+              </span>
             </div>
 
             <div class="product-configuration">
               <table class="text-left">
-                <tbody>
+                <tbody class="product-info-table">
                   <tr>
                     <td class="title">Howard Morris</td>
                     <td class="description">Jason Perez</td>
@@ -170,12 +181,28 @@
                     <td class="title">Howard Morris</td>
                     <td class="description">Jason Perez</td>
                   </tr>
+
+                  <tr>
+                    <td class="title">Howard Morris</td>
+                    <td class="description">Jason Perez</td>
+                  </tr>
+
+                  <tr>
+                    <td class="title">Howard Morris</td>
+                    <td class="description">Jason Perez</td>
+                  </tr>
+
+                  <tr>
+                    <td class="title">Howard Morris</td>
+                    <td class="description">Jason Perez</td>
+                  </tr>
+
                 </tbody>
               </table>
             </div>
 
             <div class="add-to-bag">
-              <button>Add to Bag</button>
+              <button type="button" class="btn-more" style="width: 153px; height: 30px;"><a href="product_detail.html" class="big-button">Add to Bag</a></button>
             </div>
 
           </div>
@@ -186,87 +213,270 @@
   </section>
 
   <section id="product_more_description" class="text-center">
-    <div class="container">
-      <h3>Paul Higgins</h3>
-      <p>There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement. The headline should be simply catchy and various key points should be embedded when deciding on the headline for the ad. The headline should catch attention of the eye at the first glance. Words in headlines should act as tags for the advertisement. It should say it all about the content that follows. If a company is selling reasonably priced furniture, the headline of their advertisement should be ‘Durable furniture for less price’. This headline will attract the right customers who are on a look out for durable furniture as well as low cost furniture. If the customers to be reached belong to a category that are interested in decorating their house with beautiful furniture and aren’t concerned about the price to get the right look, then the headline can be ‘Change how your house looks by our oriental furniture’. Anything other than the prospects should not be included in the headline. If both men and women can use a product, both of them should be referred to in the title, missing out even one of the category is like losing a huge number of potential customers. </p>
-    </div>
+
+    <div style="height: 20px"></div>
 
     <div class="container">
-      <h3>Paul Higgins</h3>
-      <p>There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement. The headline should be simply catchy and various key points should be embedded when deciding on the headline for the ad. The headline should catch attention of the eye at the first glance. Words in headlines should act as tags for the advertisement. It should say it all about the content that follows. If a company is selling reasonably priced furniture, the headline of their advertisement should be ‘Durable furniture for less price’. This headline will attract the right customers who are on a look out for durable furniture as well as low cost furniture. If the customers to be reached belong to a category that are interested in decorating their house with beautiful furniture and aren’t concerned about the price to get the right look, then the headline can be ‘Change how your house looks by our oriental furniture’. Anything other than the prospects should not be included in the headline. If both men and women can use a product, both of them should be referred to in the title, missing out even one of the category is like losing a huge number of potential customers. </p>
+
+      <p class="detail-title">Paul Higgins</p>
+
+      <div class="small-break-line"></div>
+
+      <p class="detail-content">There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement. The headline should be simply catchy and various key points should be embedded when deciding on the headline for the ad. The headline should catch attention of the eye at the first glance. Words in headlines should act as tags for the advertisement. It should say it all about the content that follows. If a company is selling reasonably priced furniture, the headline of their advertisement should be ‘Durable furniture for less price’. This headline will attract the right customers who are on a look out for durable furniture as well as low cost furniture. If the customers to be reached belong to a category that are interested in decorating their house with beautiful furniture and aren’t concerned about the price to get the right look, then the headline can be ‘Change how your house looks by our oriental furniture’. Anything other than the prospects should not be included in the headline. If both men and women can use a product, both of them should be referred to in the title, missing out even one of the category is like losing a huge number of potential customers. </p>
     </div>
+
+    <div style="height: 80px"></div>
+
+    <img src="images/product_image.png">
+
+    <div style="height: 60px"></div>
+
+    <div class="container">
+
+      <p class="detail-title">Paul Higgins</p>
+
+      <div class="small-break-line"></div>
+
+      <p class="detail-content">Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression. So you need to do it right. Following are some tips which will help you do just that.
+<br><br>
+1) Record everything
+<br><br>
+Always write down all details of every phone call. Write down any names and titles you learn. Not just</p>
+    </div>
+
+    <div style="height: 20px"></div>
 
     <img src="images/product_description.png">
+
+    <div style="height: 60px"></div>
+
   </section>
 
   <section id="product_comment">
     <div class="container">
-      <h2>Comments</h2>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <p class="text-title">Comments</p>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
 
       <div class="comments">
-        <div class="row">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
           <div class="col-lg-1">
-            <img src="images/avatar.png">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
           </div>
-
-          <div class="col-lg-11">
-            <h3>Garrett McCarthy</h3>
-            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny. Byron and Shelley are the prime instances of this vital pose. In The Giaour he writes on a vampiric character: “The common crowd but see the gloom/ Of wayward deeds and fitting doom;/ The close observer can espy/A noble soul, and lineage high.” </p>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1">
-            <img src="images/avatar.png">
-          </div>
-
-          <div class="col-lg-11">
-            <h3>Garrett McCarthy</h3>
-            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny. Byron and Shelley are the prime instances of this vital pose. In The Giaour he writes on a vampiric character: “The common crowd but see the gloom/ Of wayward deeds and fitting doom;/ The close observer can espy/A noble soul, and lineage high.” </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1">
-            <img src="images/avatar.png">
-          </div>
-
-          <div class="col-lg-11">
-            <h3>Garrett McCarthy</h3>
-            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny. Byron and Shelley are the prime instances of this vital pose. In The Giaour he writes on a vampiric character: “The common crowd but see the gloom/ Of wayward deeds and fitting doom;/ The close observer can espy/A noble soul, and lineage high.” </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1">
-            <img src="images/avatar.png">
-          </div>
-
-          <div class="col-lg-11">
-            <h3>Garrett McCarthy</h3>
-            <p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny. Byron and Shelley are the prime instances of this vital pose. In The Giaour he writes on a vampiric character: “The common crowd but see the gloom/ Of wayward deeds and fitting doom;/ The close observer can espy/A noble soul, and lineage high.” </p>
-          </div>
+          <div class="col-lg-2"></div>
         </div>
       </div>
 
-      <h2>Leave Comment</h2>
-      <div class="comment-form">
-        <form>
-          <table>
-            <tr>
-              <td><label for="name">Your Name</label></td>
-              <td><input type="text" name="name" id="name"></td>
-            <tr>
-              <td><label for="comment">Comment</label></td>
-              <td><textarea id="comment"></textarea></td>
-            </tr>
-            </tr>
-          </table>
-          <div class="text-center">
-            <button>Submit Comment</button>
+      <div class="comments">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
           </div>
-        </form>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
       </div>
+
+      <div class="comments">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
+          </div>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <div class="comments">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
+          </div>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <div class="comments">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
+          </div>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <div class="comments">
+        <div class="row comment">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="comment-avatar-holder"><img class="comment-avatar" src="images/avatar.png"></div>
+          </div>
+          <div class="col-lg-7">
+            <p class="comment-name">Garrett McCarthy</p>
+            <div class="rate-holder">
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-checked"></label>
+              </span>
+              <span>
+                <label class="rate-bullet rate-bullet-uncheck"></label>
+              </span>
+            </div>
+            <p class="comment-content">The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded all over Europe; the old regime became, in their imaginary, a paradise lost. This explains why some romantic poets born in the higher classes were keen on seeing themselves as faded aristocrats, expelled from their comfortable milieu by a reverse of fortune or a design of destiny.</p>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <p class="text-title">Leave Comment</p>
+
+            <div class="comment-form">
+              <form>
+                <table>
+                  <tr>
+                    <td style="width: 120px"><label for="name" class="form-title-content">Your Name</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                  <tr>
+                    <td><label for="comment" class="form-title-content">Comment</label></td>
+                    <td><textarea id="comment"></textarea></td>
+                  </tr>
+                  </tr>
+                </table>
+                <div class="text-center">
+                  <button>Submit Comment</button>
+                </div>
+              </form>
+            </div>
+
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+
+      
+      
     </div>
   </section>
 
