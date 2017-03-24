@@ -1,0 +1,23 @@
+.btn-more {
+  width: 118px;
+  height: 21px;
+  border-radius: 100px;
+  border: solid 1px #5fc1ff;
+  font-family: .SFNSText;
+  font-size: 11px;
+  letter-spacing: 0px;
+  color: #5fc1ff;
+  background-color: #00000000;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.btn-more a {
+  text-decoration: none;
+  color: #5fc1ff;
+}
+
+.btn-more a:hover {
+  text-decoration: none;
+  color: #5fc1ff;
+}
