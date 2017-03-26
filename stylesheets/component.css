@@ -1,4 +1,4 @@
-.btn-submit-payment {
+.btn-submit {
   border-radius: 100px;
   border: 1px solid #1C86EE;
   background-color: #fff;
@@ -6,7 +6,7 @@
   padding: 5px 55px;
 }
 
-.btn-submit-payment:hover {
+.btn-submit:hover {
   background-color: #1C86EE;
   color: #fff;
 }
