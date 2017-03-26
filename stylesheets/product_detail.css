@@ -66,6 +66,10 @@ body#product_detail {
   background-color: #f9dfbc;
 }
 
+#product_more_description {
+  margin-top: 30px;
+}
+
 #product_more_description img {
   width: 100%;
 }
@@ -250,4 +254,16 @@ body#product_detail {
   margin-top: -45px;
   content: -webkit-gradient(linear,0% 100%,0% 0%,from(#fff),color-stop(.2,#fff),to(rgba(255,255,255,0)));
   display: block;
+}
+
+.sales-promotion {
+  border-radius: 10px;
+  border: 1px solid #c2c2c2;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.sales-promotion .promotion-list {
+  margin-left: 15px;
 }
