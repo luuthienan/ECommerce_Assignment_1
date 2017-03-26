@@ -34,8 +34,9 @@ header > .nav-home{
 
 header .logo {
   width: 188px;
-  background-color: rgba(234, 234, 234, 0.39);
+  background-image: url("../../images/logo.png");
   text-align: center;
+  background-size: cover;
 }
 
 header .menu {
