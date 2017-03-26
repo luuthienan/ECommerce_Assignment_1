@@ -53,7 +53,7 @@ body#item_bag {
 .quantity-input{
   margin-top: 15px;
 }
-.quantity-input input[type="text"] {
+.quantity-input input[type="number"] {
   width: 40px;
   height: 40px;
   border-radius: 10px;
@@ -112,4 +112,9 @@ body#item_bag {
 .btn-end a:hover {
   text-decoration: none;
   color: #7cc5ff;
+}
+
+.quantity-adjust {
+  background-color: transparent;
+  padding: 0 !important;
 }
