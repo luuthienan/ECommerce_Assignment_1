@@ -1,2 +1,14 @@
 .keyword-info{
 }
+
+.search-results {
+  top: 0 !important;
+  width: 89% !important;
+  padding-bottom: 18px;
+}
+
+.results-info {
+  width: 89%;
+  margin: auto;
+  padding-bottom: 16px;
+}
