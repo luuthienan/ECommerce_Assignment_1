@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/header.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/layouts/footer.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/finish_payment.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/component.css">
 
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -119,7 +120,7 @@
   <div class="col-sm-8 col-sm-offset-2">
     <div class="topic"><h3><p>Finish payment</p></h3></div>
 
-    <form class="form-horizontal">
+    <form class="form-horizontal" id="form_payment" action="review_payment.html">
       <!-- Your name -->
       <div class="form-group">
         <label class="col-sm-3 text-left form-label" for="urname">Your name:</label>
@@ -174,7 +175,41 @@
           <input type="text" class="form-control form-text input-radius" id="address" placeholder="Enter your Address, ex.52 Ly Thuong Kiet">
         </div>
       </div>
-      <center><button class=""><a href="review_payment.html">Continue</a></button></center>
+      <center>
+        <button class=""><a href="review_payment.html">Purchase on Delivery</a></button>
+        <script src="https://checkout.stripe.com/checkout.js"></script>
+
+        <button id="payment_online" class="btn-payment-online">Purchase Online</button>
+
+        <script>
+          var handler = StripeCheckout.configure({
+            key: 'pk_test_Bzw2baqHPQfHFnEiNP4XwKxW',
+            image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+            locale: 'auto',
+            token: function(token) {
+              // You can access the token ID with `token.id`.
+              // Get the token ID to your server-side code for use.
+              console.log(token.id);
+              document.getElementById('form_payment').submit();
+            }
+          });
+
+          document.getElementById('payment_online').addEventListener('click', function(e) {
+            // Open Checkout with further options:
+            handler.open({
+              name: 'Demo Site EC HCMUT',
+              description: 'test',
+              amount: 2000
+            });
+            e.preventDefault();
+          });
+
+          // Close Checkout on page navigation:
+          window.addEventListener('popstate', function() {
+            handler.close();
+          });
+        </script>
+      </center>
     </form>
   </div>
 </div>
