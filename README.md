@@ -62,3 +62,5 @@ Preferences -> Settings -> Settings-User
 	"word_wrap": true
 }
 ```
+
+Deployed: ```https://e-commerce-hcmut.herokuapp.com```
