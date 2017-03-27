@@ -63,4 +63,4 @@ Preferences -> Settings -> Settings-User
 }
 ```
 
-Deployed: ```https://e-commerce-hcmut.herokuapp.com```
+Deployed: https://e-commerce-hcmut.herokuapp.com
